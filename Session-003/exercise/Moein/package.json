@@ -1,0 +1,22 @@
+{
+  "name": "moein-docker-exercise",
+  "version": "1.0.0",
+  "description": "Docker Exercise - Moein Alizadeh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrueMoein/frontend-sessions.git"
+  },
+  "keywords": [
+    "Docker"
+  ],
+  "author": "@truemoein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TrueMoein/frontend-sessions/issues"
+  },
+  "homepage": "https://github.com/TrueMoein/frontend-sessions#readme"
+}

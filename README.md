@@ -5,6 +5,7 @@
 - [Session 3 - 1398/02/11](/Session-003)
 
 
-### Future Planning
+# Future Planning
 - `http-wrapper` package
 - PWA (WorkBox, Lighthouse, ...)
+- Typescript...
