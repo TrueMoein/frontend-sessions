@@ -1,0 +1,442 @@
+$rayHeight: 400px;
+$teal1: #AFE0E4;
+$teal2: #C0E6E9;
+$teal3: #84CDD4;
+$teal4: #7EC9D1;
+$teal5: #97D6DC;
+$teal6: #AEDEE2;
+$teal7: #96D3D8;
+$teal8: #9CD7DD;
+$teal9: #7ECBD3;
+$teal10: #AFE0E4;
+$teal11: #B6DFE3;
+$teal12: #84CDD4;
+
+.container {
+  position: relative;
+  width: 160px;
+  height: 335px;
+  background: linear-gradient(to bottom, #96C7CC 0%, #C3DDD8 30%, #C3DDD8 100%);
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.gradientContainer {
+  // border: 1px solid #ff9900;
+  margin-top: 95px;
+  height: 300px;
+  overflow:hidden;
+  background: linear-gradient(to bottom, #C3E5E5, #0D3F53);
+  position: absolute;
+  z-index: 200;
+}
+.overlay {
+  width: 100%;
+  height: 240px;
+  position: absolute;
+  &.one {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 10%, #0B4558 100%);
+    z-index: 100;
+  }
+}
+.gradient {
+  margin-top: -100px;
+  // border: 1px solid red;
+  width: 620px;
+  height: 400px;
+  transform: translateX(-50px) rotate(20deg);
+  animation-name: gradient;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  transform-style: preserve-3d;
+}
+
+@keyframes gradient {
+  0% {
+    transform: translateX(-50px) rotate(20deg);
+  }
+  100% {
+    transform: translateX(-379px) rotate(20deg);
+  }
+}
+
+@for $i from 1 through 26 {
+  .ray#{$i} {
+    height: $rayHeight;
+    display: inline-block;
+    animation-name: blinkRay;
+    animation-duration: random(4) + s;
+    animation-delay: random(4) + s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    opacity: 1;
+  }
+}
+
+@keyframes blinkRay {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
+
+.ray1, .ray14, .ray27 { width: 20px; background: linear-gradient(to bottom, $teal1 0%, $teal1 40%, rgba(255, 255, 255,0) 100%); }
+.ray2, .ray15, .ray28 { width: 20px; background: linear-gradient(to bottom, $teal2 0%, $teal2 30%, rgba(255, 255, 255,0) 100%); }
+.ray3, .ray16, .ray29 { width: 15px; background: linear-gradient(to bottom, $teal3 0%, $teal3 20%, rgba(255, 255, 255,0) 100%); }
+.ray4, .ray17, .ray30 { width: 5px; background: linear-gradient(to bottom, $teal4 0%, $teal4 10%, rgba(255, 255, 255,0) 100%); }
+.ray5, .ray18, .ray31 { width: 10px; background: linear-gradient(to bottom, $teal5 0%, $teal5 40%, rgba(255, 255, 255,0) 100%); }
+.ray6, .ray19, .ray32 { width: 10px; background: linear-gradient(to bottom, $teal6 0%, $teal6 30%, rgba(255, 255, 255,0) 100%); }
+.ray7, .ray20, .ray33 { width: 10px; background: linear-gradient(to bottom, $teal7 0%, $teal7 20%, rgba(255, 255, 255,0) 100%); }
+.ray8, .ray21, .ray34 { width: 5px; background: linear-gradient(to bottom, $teal8 0%, $teal8 40%, rgba(255, 255, 255,0) 100%); }
+.ray9, .ray22, .ray35 { width: 25px; background: linear-gradient(to bottom, $teal9 0%, $teal9 60%, rgba(255, 255, 255,0) 100%); }
+.ray10, .ray23, .ray36 { width: 10px; background: linear-gradient(to bottom, $teal5 0%, $teal5 50%, rgba(255, 255, 255,0) 100%); }
+.ray11, .ray24, .ray37 { width: 10px; background: linear-gradient(to bottom, $teal6 0%, $teal6 40%, rgba(255, 255, 255,0) 100%); }
+.ray12, .ray25, .ray38 { width: 10px; background: linear-gradient(to bottom, $teal7 0%, $teal7 20%, rgba(255, 255, 255,0) 100%); }
+.ray13, .ray26, .ray39 { width: 5px; background: linear-gradient(to bottom, $teal8 0%, $teal8 10%, rgba(255, 255, 255,0) 100%); }
+
+.cPos {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  z-index: 9;
+  transform: translateY(0) scale(1);
+  animation-name: sunset;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes sunset {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  100% {
+    transform: translateY(10px) scale(.9);
+  }
+}
+.cc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle {
+  position: absolute;
+  background: #FBFEF9;
+  border-radius: 50%;
+  &.one {
+    width: 160px;
+    height: 160px;
+    opacity: .2;
+  }
+  &.two {
+    width: 130px;
+    height: 130px;
+    opacity: .2;
+  }
+  &.three {
+    width: 100px;
+    height: 100px;
+    opacity: .2;
+  }
+  &.four {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.rocks {
+  position: relative;
+  .rock {
+    position: absolute;
+    &.one {
+      top: 280px;
+      left: -30px;
+      width: 98px;
+      height: 50px;
+      clip-path: polygon(0 0, 56% 10%, 80% 100%, 0% 100%);
+      background: #02364B;
+      z-index: 2000;
+    }
+    &.two {
+      top: 295px;
+      left: 30px;
+      width: 95px;
+      height: 60px;
+      clip-path: polygon(0 15%, 20% 10%, 100% 70%, 100% 100%, 0% 100%);
+      background: #063B51;
+      z-index: 1000;
+    }
+    &.three {
+      top: 300px;
+      left: 50px;
+      width: 95px;
+      height: 60px;
+      clip-path: polygon(0 60%, 60% 20%, 100% 12%, 100% 100%, 0 100%);
+      background: #002C44;
+      z-index: 3000;
+    }
+    &.four {
+      top: 255px;
+      left: 125px;
+      width: 60px;
+      height: 65px;
+      clip-path: polygon(0 100%, 20% 45%, 100% 12%, 100% 100%, 0 100%);
+      background: #023A51;
+      z-index: 4000;
+    }
+  }
+}
+
+.bubbleContainer {
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+  position: absolute;
+  animation-name: bubblesIn;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@keyframes bubblesIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@for $i from 1 through 10 {
+  $size: random(4) + 1 + px;
+
+  .bubbleX#{$i} {
+    display: inline-block;
+    width: $size;
+    height: $size;
+    border-radius: 50%;
+    background: #FFF;
+    transform: translateX(0);
+    animation-name: bubbleX#{$i};
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  .bubbleY#{$i} {
+    display: inline-block;
+    position: absolute;
+    z-index: 5000;
+    top: random(100) + px;
+    left: random(156) + px;
+    animation-name: bubbleY;
+    animation-duration: 1.25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translateY(0);
+    opacity: .6;
+    animation-delay: random(3) + s;
+  }
+  @keyframes bubbleX#{$i} {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(-random(15) + px) }
+    40% { transform: translateX(random(15) + px) }
+    60% { transform: translateX(-random(15) + px) }
+    80% { transform: translateX(random(15) + px) }
+    100% { transform: translateX(-random(15) + px); }
+  }
+
+  @keyframes bubbleY {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+    100% {
+      transform: translateY(-60px);
+      opacity: 0;
+    }
+  }
+}
+
+.triangleContainer {
+  margin-top: 92px;
+  width: 1000px;
+  position: absolute;
+  z-index: 1000;
+  transform: translateX(-250px);
+  animation-name: triangles;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.triangleBar {
+  width: 1000px;
+  height: 6px;
+  position: absolute;
+  z-index: 1500;
+  background: linear-gradient(to bottom, #E7F9F3, #F5FFF9);
+}
+.triangle {
+  width: 50px;
+  height: 10px;
+  display: inline-block;
+  background: #EDF7E7;
+  clip-path: polygon(0% 0%, 100% 0%, 50% 100%, 0% 0%);
+}
+
+@keyframes triangles {
+  0% {
+    transform: translateX(-250px);
+  }
+  100% {
+    transform: translateX(-500px);
+  }
+}
+
+.whaleContainer {
+  position: relative;
+  transform: translateX(0);
+  animation-name: whaleTranslate;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  z-index: 7000;
+}
+@keyframes whaleTranslate {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(380px);
+  }
+}
+
+.whalePos {
+  position: absolute;
+  z-index: 1000;
+  &.size1 {
+    top: 150px;
+    left: -210px;
+  }
+  &.size2 {
+    top: 100px;
+    left: -280px;
+  }
+  &.size3 {
+    top: 120px;
+    left: -140px;
+  }
+  &.size4 {
+    top: 190px;
+    left: -310px;
+  }
+}
+.whaleRotate {
+  position: relative;
+  width: 245px;
+  height: 110px;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  &.size1 {
+    transform: rotate(0) scale(.35);
+    animation-name: whaleMovementXLarge;
+  }
+  &.size2 {
+    transform: rotate(0) scale(.25);
+    animation-name: whaleMovementLarge;
+  }
+  &.size3 {
+    transform: rotate(0) scale(.15);
+    animation-name: whaleMovementMedium;
+  }
+  &.size4 {
+    transform: rotate(0) scale(.1);
+    animation-name: whaleMovementSmall;
+  }
+
+}
+@keyframes whaleMovementXLarge {
+  0% {
+    transform: rotate(0) scale(.35);
+  }
+  100% {
+    transform: rotate(10deg) scale(.35);
+  }
+}
+@keyframes whaleMovementLarge {
+  0% {
+    transform: rotate(0) scale(.25);
+  }
+  100% {
+    transform: rotate(10deg) scale(.25);
+  }
+}
+@keyframes whaleMovementMedium {
+  0% {
+    transform: rotate(0) scale(.15);
+  }
+  100% {
+    transform: rotate(10deg) scale(.15);
+  }
+}
+@keyframes whaleMovementSmall {
+  0% {
+    transform: rotate(0) scale(.1);
+  }
+  100% {
+    transform: rotate(10deg) scale(.1);
+  }
+}
+.whale {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  background: radial-gradient(at 40% 20%, #95d6df 0%,#95d6df 35%,#6db3c2 35%,#6db3c2 60%,#6db3c2 70%,#407a8b 70%,#407a8b 100%);
+  clip-path: polygon(15% 0%, 18.5% 20%, 19% 37%, 27% 46.5%, 33% 46.5%, 42.5% 37%, 43% 26.5%, 50.5% 28.5%, 65.5% 17%, 88.5% 12.5%, 97.5% 22.5%, 100% 49.5%, 97% 65.5%, 89.5% 81.5%, 64.5% 86.5%, 43.5% 80%, 23% 59.5%, 15.5% 41.5%, 8% 40%, 1.5% 28.5%, 6.5% 25%, 12.5% 26.5%, 12% 14%);
+}
+
+.fin {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  z-index: 5000;
+  width: 50px;
+  height: 30px;
+  background: #407A8B;
+  transform-origin: center top;
+  clip-path: polygon(30% 50%, 60% 0, 100% 0%, 80% 60%, 60% 80%, 0 100%);
+  animation-name: fin;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes fin {
+  0% {
+    transform: rotate3d(0, 0, 0, 0deg);
+  }
+  100% {
+    transform: rotate3d(1, 1, 1, 30deg);
+  }
+}
+
+html, body {
+  overflow: hidden;
+}
+body {
+  background: #E6FFFF;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
