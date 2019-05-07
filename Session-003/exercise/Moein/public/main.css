@@ -44,8 +44,8 @@
   height: 400px;
   display: inline-block;
   animation-name: blinkRay;
-  animation-duration: 4s;
-  animation-delay: 4s;
+  animation-duration: 1s;
+  animation-delay: 1s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
@@ -55,8 +55,8 @@
   height: 400px;
   display: inline-block;
   animation-name: blinkRay;
-  animation-duration: 4s;
-  animation-delay: 3s;
+  animation-duration: 1s;
+  animation-delay: 4s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
@@ -66,8 +66,8 @@
   height: 400px;
   display: inline-block;
   animation-name: blinkRay;
-  animation-duration: 3s;
-  animation-delay: 2s;
+  animation-duration: 4s;
+  animation-delay: 4s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
@@ -77,8 +77,8 @@
   height: 400px;
   display: inline-block;
   animation-name: blinkRay;
-  animation-duration: 1s;
-  animation-delay: 3s;
+  animation-duration: 3s;
+  animation-delay: 1s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
@@ -88,7 +88,7 @@
   height: 400px;
   display: inline-block;
   animation-name: blinkRay;
-  animation-duration: 1s;
+  animation-duration: 4s;
   animation-delay: 1s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -99,8 +99,8 @@
   height: 400px;
   display: inline-block;
   animation-name: blinkRay;
-  animation-duration: 4s;
-  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-delay: 3s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
@@ -110,8 +110,8 @@
   height: 400px;
   display: inline-block;
   animation-name: blinkRay;
-  animation-duration: 2s;
-  animation-delay: 2s;
+  animation-duration: 4s;
+  animation-delay: 4s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
@@ -121,8 +121,8 @@
   height: 400px;
   display: inline-block;
   animation-name: blinkRay;
-  animation-duration: 4s;
-  animation-delay: 1s;
+  animation-duration: 2s;
+  animation-delay: 2s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
@@ -132,8 +132,8 @@
   height: 400px;
   display: inline-block;
   animation-name: blinkRay;
-  animation-duration: 1s;
-  animation-delay: 4s;
+  animation-duration: 3s;
+  animation-delay: 1s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
@@ -143,8 +143,8 @@
   height: 400px;
   display: inline-block;
   animation-name: blinkRay;
-  animation-duration: 4s;
-  animation-delay: 4s;
+  animation-duration: 1s;
+  animation-delay: 2s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
@@ -154,8 +154,8 @@
   height: 400px;
   display: inline-block;
   animation-name: blinkRay;
-  animation-duration: 3s;
-  animation-delay: 2s;
+  animation-duration: 1s;
+  animation-delay: 1s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
@@ -165,8 +165,8 @@
   height: 400px;
   display: inline-block;
   animation-name: blinkRay;
-  animation-duration: 4s;
-  animation-delay: 2s;
+  animation-duration: 2s;
+  animation-delay: 4s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
@@ -176,8 +176,8 @@
   height: 400px;
   display: inline-block;
   animation-name: blinkRay;
-  animation-duration: 2s;
-  animation-delay: 2s;
+  animation-duration: 3s;
+  animation-delay: 4s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
@@ -187,8 +187,8 @@
   height: 400px;
   display: inline-block;
   animation-name: blinkRay;
-  animation-duration: 1s;
-  animation-delay: 3s;
+  animation-duration: 2s;
+  animation-delay: 4s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
@@ -199,7 +199,7 @@
   display: inline-block;
   animation-name: blinkRay;
   animation-duration: 2s;
-  animation-delay: 4s;
+  animation-delay: 1s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
@@ -209,8 +209,8 @@
   height: 400px;
   display: inline-block;
   animation-name: blinkRay;
-  animation-duration: 3s;
-  animation-delay: 1s;
+  animation-duration: 2s;
+  animation-delay: 4s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
@@ -221,7 +221,7 @@
   display: inline-block;
   animation-name: blinkRay;
   animation-duration: 3s;
-  animation-delay: 1s;
+  animation-delay: 2s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
@@ -231,8 +231,8 @@
   height: 400px;
   display: inline-block;
   animation-name: blinkRay;
-  animation-duration: 2s;
-  animation-delay: 4s;
+  animation-duration: 3s;
+  animation-delay: 2s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
@@ -253,7 +253,7 @@
   height: 400px;
   display: inline-block;
   animation-name: blinkRay;
-  animation-duration: 4s;
+  animation-duration: 2s;
   animation-delay: 1s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -265,7 +265,7 @@
   display: inline-block;
   animation-name: blinkRay;
   animation-duration: 1s;
-  animation-delay: 4s;
+  animation-delay: 2s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
@@ -275,7 +275,7 @@
   height: 400px;
   display: inline-block;
   animation-name: blinkRay;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-delay: 1s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -286,8 +286,8 @@
   height: 400px;
   display: inline-block;
   animation-name: blinkRay;
-  animation-duration: 3s;
-  animation-delay: 3s;
+  animation-duration: 1s;
+  animation-delay: 1s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
@@ -297,7 +297,7 @@
   height: 400px;
   display: inline-block;
   animation-name: blinkRay;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-delay: 3s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -308,8 +308,8 @@
   height: 400px;
   display: inline-block;
   animation-name: blinkRay;
-  animation-duration: 1s;
-  animation-delay: 2s;
+  animation-duration: 4s;
+  animation-delay: 1s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
@@ -320,7 +320,7 @@
   display: inline-block;
   animation-name: blinkRay;
   animation-duration: 1s;
-  animation-delay: 3s;
+  animation-delay: 2s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
@@ -482,8 +482,8 @@
 
 .bubbleX1 {
   display: inline-block;
-  width: 3px;
-  height: 3px;
+  width: 2px;
+  height: 2px;
   border-radius: 50%;
   background: #FFF;
   transform: translateX(0);
@@ -496,8 +496,8 @@
   display: inline-block;
   position: absolute;
   z-index: 5000;
-  top: 49px;
-  left: 3px;
+  top: 19px;
+  left: 110px;
   animation-name: bubbleY;
   animation-duration: 1.25s;
   animation-iteration-count: infinite;
@@ -512,11 +512,11 @@
   20% {
     transform: translateX(-random(15)px); }
   40% {
-    transform: translateX(11px); }
+    transform: translateX(5px); }
   60% {
     transform: translateX(-random(15)px); }
   80% {
-    transform: translateX(5px); }
+    transform: translateX(2px); }
   100% {
     transform: translateX(-random(15)px); } }
 
@@ -531,8 +531,8 @@
 
 .bubbleX2 {
   display: inline-block;
-  width: 4px;
-  height: 4px;
+  width: 2px;
+  height: 2px;
   border-radius: 50%;
   background: #FFF;
   transform: translateX(0);
@@ -545,15 +545,15 @@
   display: inline-block;
   position: absolute;
   z-index: 5000;
-  top: 41px;
-  left: 123px;
+  top: 54px;
+  left: 20px;
   animation-name: bubbleY;
   animation-duration: 1.25s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   transform: translateY(0);
   opacity: .6;
-  animation-delay: 1s; }
+  animation-delay: 2s; }
 
 @keyframes bubbleX2 {
   0% {
@@ -561,11 +561,11 @@
   20% {
     transform: translateX(-random(15)px); }
   40% {
-    transform: translateX(2px); }
+    transform: translateX(5px); }
   60% {
     transform: translateX(-random(15)px); }
   80% {
-    transform: translateX(12px); }
+    transform: translateX(3px); }
   100% {
     transform: translateX(-random(15)px); } }
 
@@ -580,8 +580,8 @@
 
 .bubbleX3 {
   display: inline-block;
-  width: 4px;
-  height: 4px;
+  width: 2px;
+  height: 2px;
   border-radius: 50%;
   background: #FFF;
   transform: translateX(0);
@@ -594,15 +594,15 @@
   display: inline-block;
   position: absolute;
   z-index: 5000;
-  top: 11px;
-  left: 72px;
+  top: 81px;
+  left: 78px;
   animation-name: bubbleY;
   animation-duration: 1.25s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   transform: translateY(0);
   opacity: .6;
-  animation-delay: 2s; }
+  animation-delay: 1s; }
 
 @keyframes bubbleX3 {
   0% {
@@ -610,11 +610,11 @@
   20% {
     transform: translateX(-random(15)px); }
   40% {
-    transform: translateX(10px); }
+    transform: translateX(9px); }
   60% {
     transform: translateX(-random(15)px); }
   80% {
-    transform: translateX(14px); }
+    transform: translateX(11px); }
   100% {
     transform: translateX(-random(15)px); } }
 
@@ -629,8 +629,8 @@
 
 .bubbleX4 {
   display: inline-block;
-  width: 3px;
-  height: 3px;
+  width: 5px;
+  height: 5px;
   border-radius: 50%;
   background: #FFF;
   transform: translateX(0);
@@ -643,8 +643,8 @@
   display: inline-block;
   position: absolute;
   z-index: 5000;
-  top: 24px;
-  left: 96px;
+  top: 61px;
+  left: 3px;
   animation-name: bubbleY;
   animation-duration: 1.25s;
   animation-iteration-count: infinite;
@@ -659,7 +659,7 @@
   20% {
     transform: translateX(-random(15)px); }
   40% {
-    transform: translateX(13px); }
+    transform: translateX(15px); }
   60% {
     transform: translateX(-random(15)px); }
   80% {
@@ -678,8 +678,8 @@
 
 .bubbleX5 {
   display: inline-block;
-  width: 4px;
-  height: 4px;
+  width: 5px;
+  height: 5px;
   border-radius: 50%;
   background: #FFF;
   transform: translateX(0);
@@ -692,15 +692,15 @@
   display: inline-block;
   position: absolute;
   z-index: 5000;
-  top: 17px;
-  left: 111px;
+  top: 96px;
+  left: 41px;
   animation-name: bubbleY;
   animation-duration: 1.25s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   transform: translateY(0);
   opacity: .6;
-  animation-delay: 2s; }
+  animation-delay: 3s; }
 
 @keyframes bubbleX5 {
   0% {
@@ -708,11 +708,11 @@
   20% {
     transform: translateX(-random(15)px); }
   40% {
-    transform: translateX(12px); }
+    transform: translateX(13px); }
   60% {
     transform: translateX(-random(15)px); }
   80% {
-    transform: translateX(3px); }
+    transform: translateX(5px); }
   100% {
     transform: translateX(-random(15)px); } }
 
@@ -741,8 +741,8 @@
   display: inline-block;
   position: absolute;
   z-index: 5000;
-  top: 14px;
-  left: 55px;
+  top: 98px;
+  left: 117px;
   animation-name: bubbleY;
   animation-duration: 1.25s;
   animation-iteration-count: infinite;
@@ -757,11 +757,11 @@
   20% {
     transform: translateX(-random(15)px); }
   40% {
-    transform: translateX(15px); }
+    transform: translateX(5px); }
   60% {
     transform: translateX(-random(15)px); }
   80% {
-    transform: translateX(1px); }
+    transform: translateX(5px); }
   100% {
     transform: translateX(-random(15)px); } }
 
@@ -790,15 +790,15 @@
   display: inline-block;
   position: absolute;
   z-index: 5000;
-  top: 3px;
-  left: 152px;
+  top: 92px;
+  left: 30px;
   animation-name: bubbleY;
   animation-duration: 1.25s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   transform: translateY(0);
   opacity: .6;
-  animation-delay: 2s; }
+  animation-delay: 1s; }
 
 @keyframes bubbleX7 {
   0% {
@@ -806,11 +806,11 @@
   20% {
     transform: translateX(-random(15)px); }
   40% {
-    transform: translateX(10px); }
+    transform: translateX(7px); }
   60% {
     transform: translateX(-random(15)px); }
   80% {
-    transform: translateX(9px); }
+    transform: translateX(11px); }
   100% {
     transform: translateX(-random(15)px); } }
 
@@ -825,8 +825,8 @@
 
 .bubbleX8 {
   display: inline-block;
-  width: 3px;
-  height: 3px;
+  width: 5px;
+  height: 5px;
   border-radius: 50%;
   background: #FFF;
   transform: translateX(0);
@@ -839,8 +839,57 @@
   display: inline-block;
   position: absolute;
   z-index: 5000;
-  top: 76px;
-  left: 97px;
+  top: 4px;
+  left: 36px;
+  animation-name: bubbleY;
+  animation-duration: 1.25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transform: translateY(0);
+  opacity: .6;
+  animation-delay: 1s; }
+
+@keyframes bubbleX8 {
+  0% {
+    transform: translateX(0); }
+  20% {
+    transform: translateX(-random(15)px); }
+  40% {
+    transform: translateX(7px); }
+  60% {
+    transform: translateX(-random(15)px); }
+  80% {
+    transform: translateX(13px); }
+  100% {
+    transform: translateX(-random(15)px); } }
+
+@keyframes bubbleY {
+  0% {
+    transform: translateY(0); }
+  50% {
+    transform: translateY(-30px); }
+  100% {
+    transform: translateY(-60px);
+    opacity: 0; } }
+
+.bubbleX9 {
+  display: inline-block;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: #FFF;
+  transform: translateX(0);
+  animation-name: bubbleX9;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; }
+
+.bubbleY9 {
+  display: inline-block;
+  position: absolute;
+  z-index: 5000;
+  top: 7px;
+  left: 50px;
   animation-name: bubbleY;
   animation-duration: 1.25s;
   animation-iteration-count: infinite;
@@ -849,7 +898,7 @@
   opacity: .6;
   animation-delay: 2s; }
 
-@keyframes bubbleX8 {
+@keyframes bubbleX9 {
   0% {
     transform: translateX(0); }
   20% {
@@ -872,59 +921,10 @@
     transform: translateY(-60px);
     opacity: 0; } }
 
-.bubbleX9 {
-  display: inline-block;
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  background: #FFF;
-  transform: translateX(0);
-  animation-name: bubbleX9;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear; }
-
-.bubbleY9 {
-  display: inline-block;
-  position: absolute;
-  z-index: 5000;
-  top: 75px;
-  left: 102px;
-  animation-name: bubbleY;
-  animation-duration: 1.25s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  transform: translateY(0);
-  opacity: .6;
-  animation-delay: 2s; }
-
-@keyframes bubbleX9 {
-  0% {
-    transform: translateX(0); }
-  20% {
-    transform: translateX(-random(15)px); }
-  40% {
-    transform: translateX(3px); }
-  60% {
-    transform: translateX(-random(15)px); }
-  80% {
-    transform: translateX(9px); }
-  100% {
-    transform: translateX(-random(15)px); } }
-
-@keyframes bubbleY {
-  0% {
-    transform: translateY(0); }
-  50% {
-    transform: translateY(-30px); }
-  100% {
-    transform: translateY(-60px);
-    opacity: 0; } }
-
 .bubbleX10 {
   display: inline-block;
-  width: 2px;
-  height: 2px;
+  width: 5px;
+  height: 5px;
   border-radius: 50%;
   background: #FFF;
   transform: translateX(0);
@@ -937,15 +937,15 @@
   display: inline-block;
   position: absolute;
   z-index: 5000;
-  top: 46px;
-  left: 91px;
+  top: 3px;
+  left: 109px;
   animation-name: bubbleY;
   animation-duration: 1.25s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   transform: translateY(0);
   opacity: .6;
-  animation-delay: 2s; }
+  animation-delay: 1s; }
 
 @keyframes bubbleX10 {
   0% {
@@ -953,11 +953,11 @@
   20% {
     transform: translateX(-random(15)px); }
   40% {
-    transform: translateX(10px); }
+    transform: translateX(14px); }
   60% {
     transform: translateX(-random(15)px); }
   80% {
-    transform: translateX(12px); }
+    transform: translateX(4px); }
   100% {
     transform: translateX(-random(15)px); } }
 

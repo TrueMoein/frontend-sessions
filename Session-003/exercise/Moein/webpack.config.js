@@ -24,5 +24,10 @@ module.exports = {
             filename: '[name].css',
             chunkFilename: '[id].css',
         }),
+        new HtmlWebpackPlugin({
+            template: './src/index.html',
+            minify: true,
+            hash: true
+        })
     ],
 };
