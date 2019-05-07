@@ -1,1 +1,0 @@
-# Yasin (Docker practices)
