@@ -2,7 +2,7 @@ FROM node:latest as builder
 ADD . /docker-practice
 WORKDIR /docker-practice
 RUN npm install
-RUN npm run build
+CMD npm run build
 
 from nginx:latest
 WORKDIR /docker-practice
