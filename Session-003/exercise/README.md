@@ -1,5 +1,5 @@
 # Docker practices :whale:
 
-[Moein Exercise](/Session-003/exercise/Moein)
+[Moein Exercise](Moein)
 
-[Yasin Exercise](/Session-003/exercise/Yasin)
+[Yasin Exercise](Yasin)
