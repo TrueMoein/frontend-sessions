@@ -6,4 +6,4 @@ Hi guys, for running this docker image you should run this commands:
 
 ``docker run ilovedocker -p 80:80``
 
-then open [localhost](https://localhost/) in your favorite browser
+then open [localhost](http://localhost/) in your favorite browser
