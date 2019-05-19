@@ -9,4 +9,5 @@
 # Future Planning
 - `http-wrapper` package
 - PWA (WorkBox, Lighthouse, ...)
+- GitFlow
 - Typescript...
