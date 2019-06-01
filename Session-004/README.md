@@ -11,3 +11,10 @@
     
 ### Code kata by Mojilla 
 
+wrapper.getClientList({test: 1}, {tokenProvider() {return ''}})
+
+import { createResource } from 'wrapper';
+
+createResource({
+    client: {url: 'list/:name/list'}
+})

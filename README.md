@@ -7,13 +7,10 @@
 - [Session 5 - 1398/03/4](/Session-005)
 
 ### Next week
-- Javascript Fundamentals
-    - 'use string' by Mojilla **15m**
-    - Functions
-    - Loose equality and Strict equality
-    - Type conversions
-    
 - Code kata
+- Javascript Fundamentals
+    - Functions by @neoyaas chapter 1,2 [here](https://github.com/getify/Functional-Light-JS)
+    - DataTypes by @TrueMoein
 
 ## Brain Storming
 
