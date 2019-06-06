@@ -1,16 +1,17 @@
 # frontend-sessions
 
-- [Session 1 - 1398/01/28](/Session-001)
-- [Session 2 - 1398/02/04](/Session-002)
-- [Session 3 - 1398/02/11](/Session-003)
-- [Session 4 - 1398/02/18](/Session-004)
-- [Session 5 - 1398/03/4](/Session-005)
+- [Session 001 - 1398/01/28](/Session-001)
+- [Session 002 - 1398/02/04](/Session-002)
+- [Session 003 - 1398/02/11](/Session-003)
+- [Session 004 - 1398/02/18](/Session-004)
+- [Session 005 - 1398/03/04](/Session-005)
+- [Session 006 - 1398/03/11](/Session-006)
 
 ### Next week
 - Code kata
 - Javascript Fundamentals
-    - Functions by @neoyaas chapter 1,2 [here](https://github.com/getify/Functional-Light-JS)
-    - DataTypes by @TrueMoein
+    - Functions by [NeoYass](https://github.com/neoyaas) chapter 1&2 [here](https://github.com/getify/Functional-Light-JS)
+    - DataTypes by [TrueMoein](https://github.com/TrueMoein)
 
 ## Brain Storming
 
