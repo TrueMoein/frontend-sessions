@@ -1,6 +1,6 @@
 # Data types in JavaScript
 
-### JavaScript is a `dynamically typed` language
+### JavaScript is a `dynamically typed` language.
 
 7 data types in JS:
  - number `(all numbers include float, talk about Infinity and NaN and safe operation)`
@@ -11,5 +11,11 @@
  - object `(a special type to store collection of data)`
  - symbol `(its used to create unique identifiers for objects)`
  
- talk about typeof null and typeof function!
+### Notes:
+
+- Talk about null and typeof function.
+- Talk about that why arrays are object.
+- Talk about array likes and how to convert it to arrays.
+- Talk about string and why it's not an array of characters. **charAt** method and other array methods who run on strings.
+ 
  
