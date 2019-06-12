@@ -6,13 +6,12 @@
 - [Session 004 - 1398/02/18](/Session-004)
 - [Session 005 - 1398/03/04](/Session-005)
 - [Session 006 - 1398/03/11](/Session-006)
-- [Session 007 - 1398/03/??](/Session-007)
+- [Session 007 - 1398/03/22](/Session-007)
 
 ### Next week
-- Code kata
-- Javascript Fundamentals
-    - Functions by [NeoYass](https://github.com/neoyaas) chapter 1&2 [here](https://github.com/getify/Functional-Light-JS)
-    - DataTypes by [TrueMoein](https://github.com/TrueMoein)
+    - Yasin should read Functional programming again and teach us
+  
+    - Moein Should read about objects **deeply** and how to change their `__proto__` to achieve some different results.
 
 ## Brain Storming
 
