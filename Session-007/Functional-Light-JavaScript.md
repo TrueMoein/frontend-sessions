@@ -41,4 +41,37 @@ quick remarks about this code comparison:
  
  ### The Nature Of Functions
  
+ ##### What Is a Function? [Link](https://github.com/getify/Functional-Light-JS/blob/master/manuscript/ch2.md/#what-is-a-function)
+  ###### function is a collection of code that can be executed one or more times.
+##### Brief Math Review [Link](https://github.com/getify/Functional-Light-JS/blob/master/manuscript/ch2.md/#brief-math-review)
+ - we can define functions with all sorts of input(s) and output(s)
+ 
+##### Function vs Procedure [Link](https://github.com/getify/Functional-Light-JS/blob/master/manuscript/ch2.md/#function-vs-procedure)
+ - procedure is a set of coded instructions that tell a computer how to run a program or calculation.
+ - function takes input(s) and definitely always has a return value.
+
+##### Function Input [Link](https://github.com/getify/Functional-Light-JS/blob/master/manuscript/ch2.md/#function-input)
+ - Arguments are the values you pass in, and parameters are the named variables inside the function that receive those passed-in values.
+ 
+##### Defaulting Parameters [Link](https://github.com/getify/Functional-Light-JS/blob/master/manuscript/ch2.md/#defaulting-parameters)
+ - As of ES6, parameters can declare default values. In the case where the argument for that parameter is not passed,
+ or it's passed the value undefined, the default assignment expression is substituted.
+ 
+##### Counting Inputs [Link](https://github.com/getify/Functional-Light-JS/blob/master/manuscript/ch2.md/#counting-inputs)
+ - Arity is the number of parameters in a function declaration
+ - a function with arity 1 is also called "unary"
+ - a function with arity 2 is also called "binary"
+  - a function with arity 3 or higher is called "n-ary".
+  - So, if you really want to design a function that can account for an arbitrary number of arguments to be passed in, use ...args (or whatever name you like) on the end.
+
+##### Arrays of Arguments [Link](https://github.com/getify/Functional-Light-JS/blob/master/manuscript/ch2.md/#arrays-of-arguments)
+ -  multiple values and ... spreading can be interleaved,
+ 
+##### Parameter Destructuring [Link](https://github.com/getify/Functional-Light-JS/blob/master/manuscript/ch2.md/#parameter-destructuring)
+ - Destructuring is a way to declare a pattern for the kind of structure (object, array, etc.) that you expect to see,
+ and how decomposition (assignment) of its individual parts should be processed. 
+
+ 
+
+ 
  
