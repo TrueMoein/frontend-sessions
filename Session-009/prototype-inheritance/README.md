@@ -1,0 +1,1 @@
+# Prototype chain and inheritance in JavaScript
