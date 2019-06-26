@@ -1,2 +1,2 @@
-- Moein should talk about __proto__ and prototype deeply.
+- Moein should talk about `__proto__` and prototype deeply.
 - Yasin should teach us functional programming
