@@ -8,7 +8,8 @@
 - [Session 006 - 1398/03/11](/Session-006)
 - [Session 007 - 1398/03/22](/Session-007)
 - [Session 008 - 1398/04/01](/Session-008)
-- [Session 009 - 1398/04/??](/Session-009)
+- [Session 009 - 1398/04/05](/Session-009)
+- [Session 010- 1398/04/16](/Session-010)
 
 ### Next week
     - Yasin should read Functional programming again and teach us
