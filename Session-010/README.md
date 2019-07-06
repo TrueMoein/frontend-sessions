@@ -24,3 +24,9 @@
     calc('+')(1)(2); // 3
     calc('*')(2)(3); // 6
 ```
+
+<div dir="rtl"> با استفاده از closure ها مشکل زیر را حل کنید.</div>
+
+```javascript
+    ['10', '20', '30'].map(parseInt); // [1, NaN, NaN]
+```
