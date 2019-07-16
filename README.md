@@ -9,12 +9,13 @@
 - [Session 007 - 1398/03/22](/Session-007)
 - [Session 008 - 1398/04/01](/Session-008)
 - [Session 009 - 1398/04/05](/Session-009)
-- [Session 010- 1398/04/16](/Session-010)
+- [Session 010 - 1398/04/16](/Session-010)
+- [Session 011 - 1398/04/26](/Session-011)
 
 ### Next week
-    - Yasin should read Functional programming again and teach us
+    - Mojtaba should read session 3 of Functional programming light.
   
-    - Moein Should read about objects **deeply** and how to change their `__proto__` to achieve some different results.
+    - Moein should talk about `this` keyword in JavaScript.
 
 ## Brain Storming
 
