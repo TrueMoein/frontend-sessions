@@ -77,6 +77,7 @@ print.call(obj2);  // ??
 
 ### Our Own Bind Implementation
 
+```
 Function.prototype.bound = function(context) {
   const fn = this;
   
@@ -84,3 +85,4 @@ Function.prototype.bound = function(context) {
     fn.call(context, ...args)
   }
 }
+```
