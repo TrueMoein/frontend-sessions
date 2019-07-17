@@ -71,6 +71,7 @@ print = function() {
   originalPrintFunc.call(obj1);
 };
 
-print();           // "Pulsar"
-print.call(obj2);  // "Pulsar"
+print();           // ??
+print.call(obj2);  // ??
 ```
+
