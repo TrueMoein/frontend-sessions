@@ -11,11 +11,11 @@
 - [Session 009 - 1398/04/05](/Session-009)
 - [Session 010 - 1398/04/16](/Session-010)
 - [Session 011 - 1398/04/26](/Session-011)
+- [Session 012 - ???](/Session-012)
 
 ### Next week
+    - Planning on refactoring service layer
     - Mojtaba should read session 3 of Functional programming light.
-  
-    - Moein should talk about `this` keyword in JavaScript.
 
 ## Brain Storming
 
